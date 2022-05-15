@@ -54,7 +54,7 @@ ApplicationWindow {
     }
 
     ColumnLayout {
-        anchors.fill: window
+        anchors.fill: parent
 
         ListView {
             id: listView
@@ -101,8 +101,8 @@ ApplicationWindow {
                     anchors.right: sentByMe ? parent.right : undefined
                 }
             }
-
-            ScrollBar.vertical: ScrollBar {}
+            
+            
         }
 
         Pane {
